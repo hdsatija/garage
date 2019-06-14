@@ -1,8 +1,8 @@
-.setborder{
-    border-radius: 7px;
+.setborder{    border-radius: 50px;
+    box-shadow: 2px 2px 4px grey;
     margin: 3%;
-    border: 1px solid gray;
-    padding: 2%;
+    border: 1px solid #c1b3b3;
+    padding: 3%;
     background-image: linear-gradient(#fdfdfd, #f7f6fb);
 }
 .logo1{
@@ -20,11 +20,28 @@ h3{
     font-size: 35px;
     float: left;
 }
+.sad{
+    border-radius: 20px;
+    /* color: #b3b338; */
+    background-color: #fbfb04c4;
+    font-size: 35px;
+    float: left;
+}
+.setbutton{
+    margin-top: 40%;
+}
+.leftarrow{
+    float: right;
+    padding-top: 2%;
+
+}
 button{
     background-color: white;
     width: 100%;
+    border-radius: 5px;
 }
 .loveshine{
+    margin-bottom: 2%;
     padding-left: 0px;
 }
 .lovetext{

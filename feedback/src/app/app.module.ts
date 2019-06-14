@@ -7,7 +7,6 @@ import { HomeComponent } from './home/home.component';
 import { GoodComponent } from './good/good.component';
 import { BadComponent } from './bad/bad.component';
 import { GoogleformComponent } from './bad/googleform/googleform.component';
-import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 @NgModule({
   declarations: [
@@ -20,7 +19,6 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
