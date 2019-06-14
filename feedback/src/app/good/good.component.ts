@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./good.component.css']
 })
 export class GoodComponent implements OnInit {
-
+  heading="Do You like shine?";
+  username="Himanshu";
   constructor() { }
 
   ngOnInit() {
