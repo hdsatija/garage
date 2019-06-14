@@ -5,6 +5,9 @@
     padding: 3%;
     background-image: linear-gradient(#fdfdfd, #f7f6fb);
 }
+.fa-times{
+    cursor: pointer;
+}
 .logo1{
     margin-top: 10%;
 }

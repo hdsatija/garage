@@ -7,10 +7,37 @@
 .logo1{
     margin-top: 2%;
 }
+.logo{
+    border-radius: 10px;
+}
 .heading{
     color: #43438c;
 
 }
+.setmodal{
+    text-align: center;
+}
+.setrow{
+    margin:auto;
+}
+.fa-times{
+    cursor: pointer;
+}
+.modalcont{
+    float: unset;
+    text-align : center;
+    background-color:#e2e2e2 !important;
+}
+.dark-modal .modal-content {
+    background-color: #292b2c;
+    color: white;
+  }
+  .dark-modal .close {
+    color: white;
+  }
+  .light-blue-backdrop {
+    background-color: #5cb3fd;
+  }
 .logo1 >img{
     border-radius: 30px;
     width: 110%;
@@ -21,6 +48,7 @@
     margin: auto;
     color: #3f4df1;
     font-weight: 600;
+    cursor: pointer;
 }
 .logo2{
     margin-top:5%;
@@ -77,3 +105,38 @@ h4{
     padding-top: 2%;
 
 }
+.text1{
+    font-weight: 600;
+}
+.text2{
+    font-size: 14px;
+}
+.text3{
+    font-size: 14px;
+    color : blue;
+    margin:auto;
+}
+.setrow1{
+    margin-top: 5%;
+}
+.setrow2{
+    margin-top: 3%;
+}
+.setrow3{
+    margin-top: 3%;
+    /* border-top: 1px solid #b5bcc3;
+    border-bottom:  1px solid #b5bcc3; */
+}
+hr{
+    width: 127%;
+    background-color: #b5bcc3;
+    margin-left: -32px;
+
+}
+.setrow3 >div {
+    color: #5050f7;
+    letter-spacing: 25px;
+}
+.setrow3 >div :focus {
+    border : unset;
+} 

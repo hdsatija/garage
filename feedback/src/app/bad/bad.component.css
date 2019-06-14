@@ -7,6 +7,9 @@
 .logo1{
     margin-top: 15%;
 }
+.fa-times{
+    cursor: pointer;
+}
 .logo1 >img{
     border-radius: 30px;
     width: 100%;
@@ -17,6 +20,7 @@
     margin: auto;
     color: #3f4df1;
     font-weight: 600;
+    cursor: pointer;
 }
 .logo2{
     margin-top:5%;

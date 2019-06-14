@@ -33,16 +33,70 @@
     </div>
     <div class="row">
         <div class="col-md-12 mx-auto logo2">
-            <button type="button" routerLink="/rating" name="bad" class="btn button1 ">
+            <button type="button" (click)="openSm(content)" name="bad" class="btn button1 ">
                <span class="lovetext"> Give 5 stars to shine </span>      
             </button>
         </div>
     </div>
     <div class="row">
         <div class="col-md-12 mx-auto logo2">
-               <span class="nothanks" routerLink="/"> No,thanks </span>      
+
+               <span class="nothanks" routerLink="/"> No,thanks </span>  
+               <!-- <ngb-rating [(rate)]="currentRate"></ngb-rating>
+<hr>
+<pre>Rate: <b>{{currentRate}}</b></pre>     -->
         </div>
     </div>
     </div>
   </div>  
 </div>
+<ng-template #content let-c="close" let-d="dismiss" class="modalcont">
+<!-- <div class="modal-header modalcont">
+<button type="button" class="close modalcont" aria-label="Close" (click)="d('Cross click')">
+<span aria-hidden="true">&times;</span>
+</button>
+</div> -->
+<div class="modal-body modalcont" >
+<div class="container setmodal">
+<div class="row setrow">
+  <div class="col-md-12">
+    <img class="img-responsive logo" src="assets/sin.png">
+  </div>
+</div>
+<div class="row setrow1">
+    <div class="col-md-12">
+      <span class="text1">Enjoying Shine?</span>      
+    </div>
+  </div>
+  <div class="row setrow2">
+      <div class="col-md-12">
+        <span class="text2">Tap a star to rate it on Appstore.</span>      
+      </div>
+    </div>
+    <hr>
+    <div class="row setrow3">
+        <div class="col-md-12" 
+        >
+          <ngb-rating [(rate)]="currentRate" 
+          (click)="getraiting()"
+          (click)="d('Cross click')"
+          [(ngModel)]="currentRate">
+        </ngb-rating>
+        </div>
+      </div>
+      <hr>
+      <div class="row setrow3">
+          <div class="col-md-12">
+              <button type="button" class="close modalcont" aria-label="Close" (click)="d('Cross click')">
+                  <span aria-hidden="true" class="text3">Not Now</span>
+                </button>                  
+              </div>
+        </div>
+      </div> 
+    </div>
+    <!-- <div class="modal-footer modalcont">
+            
+      <button type="button" class="btn btn-outline-dark" (click)="c('Save click')">Save</button> -->
+    <!-- </div> --> 
+  </ng-template>
+  

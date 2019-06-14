@@ -5,16 +5,14 @@ import { HomeComponent } from './home/home.component';
 import { GoodComponent } from './good/good.component';
 import { BadComponent } from './bad/bad.component';
 import { GoogleformComponent } from './bad/googleform/googleform.component';
+import { SubmitComponent } from './submit/submit.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'good', component: GoodComponent },
   { path: 'bad', component: BadComponent },
   { path: 'googleform', component: GoogleformComponent },
-
-
-
-
+  { path: 'feedback/:id', component: SubmitComponent },
   { path: '**', redirectTo: '/not-found' }
 ];
 
