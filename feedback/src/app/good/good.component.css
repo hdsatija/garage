@@ -7,6 +7,10 @@
 .logo1{
     margin-top: 2%;
 }
+.heading{
+    color: #43438c;
+
+}
 .logo1 >img{
     border-radius: 30px;
     width: 110%;
@@ -27,8 +31,10 @@ h3{
     text-align: center;
     font-size: 22px;
     font-weight: 600;
+    color: #43438c;
 }
 h4{
+    color: #43438c;
     text-align: center;
     font-size: 18px;
 }
@@ -66,7 +72,6 @@ h4{
     padding-left: 0px;
 }
 .lovetext{
-    float: left;
     font-weight: 600;
     padding-left: 4%;
     padding-top: 2%;

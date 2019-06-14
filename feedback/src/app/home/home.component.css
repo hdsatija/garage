@@ -12,6 +12,7 @@
     border-radius: 30px;
 }
 h3{
+    color: #43438c;
     text-align: center;
     font-size: 22px;
     font-weight: 600;
@@ -33,7 +34,13 @@ h3{
 }
 .leftarrow{
     float: right;
+    color: #43438c;
     padding-top: 2%;
+
+
+}
+.heading{
+    color: #43438c;
 
 }
 button{
@@ -46,6 +53,7 @@ button{
     padding-left: 0px;
 }
 .lovetext{
+    color: #43438c;
     float: left;
     font-weight: 600;
     padding-left: 4%;

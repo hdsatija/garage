@@ -1,0 +1,69 @@
+.setborder{    border-radius: 50px;
+    box-shadow: 2px 2px 4px grey;
+    margin: 3%;
+    border: 1px solid #c1b3b3;
+    padding: 3%;
+    background-image: linear-gradient(#f9f8fb, #f7f6fb);}
+.logo1{
+    margin-top: 15%;
+}
+.logo1 >img{
+    border-radius: 30px;
+    width: 100%;
+
+}
+.nothanks{
+    font-size: 15px;
+    margin: auto;
+    color: #3f4df1;
+    font-weight: 600;
+}
+.logo2{
+    margin-top:5%;
+    text-align: center; 
+     
+}
+.heading{
+    color: #43438c;
+
+}
+h3{
+    color: #43438c;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+h4{
+    color: #43438c;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.setbutton{
+    margin-top: 40%;
+}
+.leftarrow{
+    float: right;
+    padding-top: 2%;
+
+}
+.button1{
+    width: 64%;
+    font-size: 15px;
+    margin: auto;
+    border-radius: 25px;
+    /* font-weight: 200; */
+    color: white;
+    background-color: #3f4df1;
+}
+.loveshine{
+    margin-bottom: 2%;
+    padding-left: 0px;
+}
+.lovetext{
+    font-weight: 600;
+    padding-left: 4%;
+    padding-top: 2%;
+
+}
